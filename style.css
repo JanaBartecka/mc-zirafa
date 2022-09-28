@@ -1,3 +1,59 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
 body {
-    font-size: 20px;
+    margin: 0;
+    display:flex;
+    background-color:#FAB941;
+    flex-direction: column;
 }
+
+header {
+    display:flex;
+    background-color: #FFD78C;
+    flex-direction: column;
+}
+
+.hornikontakt {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-around;
+    color:#0A52AD;
+}
+
+.stankyvevystavbe {
+    display:flex;
+    justify-content: center;
+    gap:20px
+
+}
+
+.vystavba {
+    font-size: 30px;
+}
+
+.logo img {
+    height:200px
+}
+
+main {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
