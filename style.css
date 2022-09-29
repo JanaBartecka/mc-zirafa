@@ -41,7 +41,34 @@ header {
 main {
     margin-left:auto;
     margin-right:auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-items: center;
 }
+
+.program1 img,
+.program2 img,
+.program3 img,
+.bazarek img{
+    height:500px;
+}
+
+.skolka img{
+    height:300px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
