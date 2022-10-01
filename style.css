@@ -27,11 +27,12 @@ header {
     display:flex;
     justify-content: center;
     gap:20px
-
+    align-items: center;
 }
 
 .vystavba {
     font-size: 30px;
+    text-align: center;
 }
 
 .logo img {
@@ -61,6 +62,22 @@ main {
     height:300px;
 }
 
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sponzori {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.logosp img {
+    height:50px;
+}
 
 
 
