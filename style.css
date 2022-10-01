@@ -33,10 +33,16 @@ header {
 .vystavba {
     font-size: 30px;
     text-align: center;
+    flex-basis: 50%;
 }
 
 .logo img {
-    height:200px
+    flex-basis: 15%;
+}
+
+.logo {
+    text-align: center;
+    margin:30px 0;
 }
 
 main {
@@ -73,6 +79,7 @@ footer {
     flex-basis: 20%;
     flex-grow: 0;
     flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .logosp img {
