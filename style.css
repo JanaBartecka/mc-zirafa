@@ -60,8 +60,39 @@ main {
 .program1 img,
 .program2 img,
 .program3 img,
+.skolka img,
 .bazarek img{
-    height:500px;
+    /* height:500px;  */
+    width: 100vw;
+}
+
+@media screen and (min-width:700px) {
+    .program1 img,
+    .program2 img,
+    .program3 img,
+    .skolka img,
+    .bazarek img {
+        /* height:500px;  */
+        width: 80vw;
+}
+}
+
+@media screen and (min-width:1000px) {
+    .program1 img,
+    .program2 img,
+    .program3 img,
+    .bazarek img {
+        /* height:500px;  */
+        width: 50vw;
+}
+.skolka img {
+    width: 30vw;
+}
+}
+
+.rezervace {
+    font-size: 20px;
+    padding: 30px;
 }
 
 .skolka img{
