@@ -26,7 +26,8 @@ header {
 .stankyvevystavbe {
     display:flex;
     justify-content: center;
-    gap:20px
+    gap:20px;
+    align-content: stretch;
     align-items: center;
 }
 
@@ -34,10 +35,13 @@ header {
     font-size: 30px;
     text-align: center;
     flex-basis: 50%;
+    max-width:30vw;
 }
 
 .logo img {
     flex-basis: 15%;
+    width: 100px;
+    vertical-align: bottom;
 }
 
 .logo {
