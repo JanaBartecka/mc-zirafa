@@ -65,7 +65,7 @@ main {
 .program2 img,
 .program3 img,
 .skolka img,
-.bazarek img{
+.akce img {
     /* height:500px;  */
     width: 100vw;
 }
@@ -75,7 +75,7 @@ main {
     .program2 img,
     .program3 img,
     .skolka img,
-    .bazarek img {
+    .akce img {
         /* height:500px;  */
         width: 80vw;
 }
@@ -85,18 +85,20 @@ main {
     .program1 img,
     .program2 img,
     .program3 img,
-    .bazarek img {
+    .akce img {
         /* height:500px;  */
-        width: 50vw;
+        width: 30vw;
 }
-.skolka img {
-    width: 30vw;
-}
+    .skolka img {
+        width: 20vw;
+    }
 }
 
 .rezervace {
     font-size: 20px;
     padding: 30px;
+    margin: 20px;
+    background-color: rgb(166, 205, 235);
 }
 
 .skolka img{
