@@ -64,8 +64,10 @@ main {
 .program1 img,
 .program2 img,
 .program3 img,
+.program4 img,
 .skolka img,
-.akce img {
+.akce img,
+.akce1 img {
     /* height:500px;  */
     width: 100vw;
 }
@@ -74,8 +76,10 @@ main {
     .program1 img,
     .program2 img,
     .program3 img,
+    .program4 img,
     .skolka img,
-    .akce img {
+    .akce img,
+    .akce1 img {
         /* height:500px;  */
         width: 80vw;
 }
@@ -85,9 +89,11 @@ main {
     .program1 img,
     .program2 img,
     .program3 img,
-    .akce img {
+    .program4 img,
+    .akce img,
+    .akce1 img {
         /* height:500px;  */
-        width: 30vw;
+        width: 50vw;
 }
     .skolka img {
         width: 20vw;
