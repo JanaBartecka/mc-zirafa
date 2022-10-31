@@ -67,6 +67,7 @@ main {
 .program4 img,
 .skolka img,
 .akce img,
+.akce2 img,
 .akce1 img {
     /* height:500px;  */
     width: 100vw;
@@ -79,6 +80,7 @@ main {
     .program4 img,
     .skolka img,
     .akce img,
+    .akce2 img,
     .akce1 img {
         /* height:500px;  */
         width: 80vw;
@@ -91,6 +93,7 @@ main {
     .program3 img,
     .program4 img,
     .akce img,
+    .akce2 img,
     .akce1 img {
         /* height:500px;  */
         width: 50vw;
