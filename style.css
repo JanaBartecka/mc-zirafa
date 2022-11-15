@@ -64,10 +64,10 @@ main {
 .program1 img,
 .program2 img,
 .program3 img,
-.program4 img,
 .skolka img,
 .akce img,
 .akce2 img,
+.akce3 img,
 .akce1 img {
     /* height:500px;  */
     width: 100vw;
@@ -77,10 +77,10 @@ main {
     .program1 img,
     .program2 img,
     .program3 img,
-    .program4 img,
     .skolka img,
     .akce img,
     .akce2 img,
+    .akce3 img,
     .akce1 img {
         /* height:500px;  */
         width: 80vw;
@@ -91,15 +91,15 @@ main {
     .program1 img,
     .program2 img,
     .program3 img,
-    .program4 img,
     .akce img,
     .akce2 img,
+    .akce3 img,
     .akce1 img {
         /* height:500px;  */
         width: 50vw;
 }
     .skolka img {
-        width: 20vw;
+        width: 50vw;
     }
 }
 
@@ -108,10 +108,6 @@ main {
     padding: 30px;
     margin: 20px;
     background-color: rgb(166, 205, 235);
-}
-
-.skolka img{
-    height:300px;
 }
 
 footer {
